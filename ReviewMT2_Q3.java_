@@ -1,0 +1,48 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class ReviewMT2_Q3 {
+  
+  
+  public static void main(String[] args) { 
+    
+    
+    
+    
+  }
+  
+  
+  public static boolean isEqualStringArr(String[] arr1 , String[] arr2){
+    
+    boolean isEqual = false;
+    
+    if(arr1.length != arr2.length){
+      isEqual = false;
+     
+    }    
+    else(arr1.length == arr2.length){
+     
+      for(int j = 0 ; j<arr1.length ; j++){
+        
+        if(arr1[j].compareTo(arr2[j])==0){
+         
+          isEqual = true;
+          
+        }
+        else 
+          isEqual = false;
+        
+        
+      }
+      
+    }
+    return isEqual
+    
+    
+    
+  }
+                                           
+  
+
+  
+}
